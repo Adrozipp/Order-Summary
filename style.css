@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 1440px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+section {
+  width: 1440px;
+  height: 1000px;
+  /* background-image: url("/images/pattern-background-desktop.svg"); */
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: hsl(224, 23%, 55%);
+  opacity: 60%;
+}
+.order-header {
+  font-family: "red hat display", sans-serif;
+  font-size: 28px;
+  position: relative;
+  top: 30px;
+}
+.order-paragraph {
+  font-family: "red hat display", sans-serif;
+  font-size: 16px;
+  color: hsl(224, 23%, 55%);
+  position: relative;
+  top: 50px;
+  line-height: 25px;
+  word-spacing: 2px;
+}
+.summary-product {
+  display: flex;
+  position: relative;
+  top: 100px;
+  left: 50px;
+  background-color: rgb(245, 251, 252);
+  width: 350px;
+  height: 100px;
+  border-radius: 12px;
+}
+
+.summary-box {
+  position: relative;
+  top: -950px;
+  background-color: rgb(255, 255, 255);
+  width: 450px;
+  height: 750px;
+  border-radius: 15px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.summary-hero img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.payment-btn {
+  position: relative;
+  top: 150px;
+  width: 350px;
+}
+.proceed:hover {
+  background-color: hsl(245, 67%, 65%);
+  transform: scale(1.1);
+}
+.proceed {
+  width: 100%;
+  height: 45px;
+  border: none;
+  border-radius: 10px;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  font-family: "red hat display", sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  position: absolute;
+  left: 50px;
+  box-shadow: rgb(197, 197, 197) 0px 10px 20px 0px;
+  cursor: pointer;
+  transition: ease-in-out 0.5s;
+}
+.cancel-payment-btn {
+  position: relative;
+  top: 215px;
+}
+.cancel {
+  border: none;
+  background: none;
+  font-family: "red hat display", sans-serif;
+  font-weight: bold;
+  color: hsl(224, 23%, 55%);
+  line-height: 50px;
+  cursor: pointer;
+  transition: ease-in-out 0.5s;
+}
+.cancel:hover {
+  color: hsl(223, 14%, 19%);
+  font-size: 16px;
+}
+.music-icon {
+  position: relative;
+  top: 25px;
+  left: 20px;
+}
+.music-head {
+  position: relative;
+  top: 25px;
+  left: 40px;
+}
+.music-price {
+  position: relative;
+  top: 45px;
+  left: -63px;
+}
+.change-btn {
+  position: relative;
+  top: 35px;
+  left: 15px;
+}
+.music-header {
+  font-family: "red hat display", sans-serif;
+  font-size: 18px;
+}
+.music-paragraph {
+  font-family: "red hat display", sans-serif;
+  color: hsl(224, 23%, 55%);
+  font-size: 18px;
+  line-height: 35px;
+}
+.change {
+  font-family: "red hat display", sans-serif;
+  color: hsl(245, 75%, 52%);
+  font-size: 18px;
+  font-size: 14px;
+  font-weight: 900;
+  transition: ease-in-out 0.2s;
+}
+.change:hover {
+  color: hsl(245, 59%, 68%);
+}
+
+@media screen and (max-width: 375px) {
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: hsl(225, 100%, 94%);
+    opacity: 100%;
+  }
+}
